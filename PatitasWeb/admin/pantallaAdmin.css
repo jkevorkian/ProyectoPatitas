@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.texto-banner{
+    text-align: center;
+  }
+
+  img.avatar {
+    width: 20%;
+    border-radius: 50%;
+  }
+
+.cardOng {
+    height: 300px;
+    background-color: #F5F5F5;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 1000px;
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+
+.img-ong {
+    width: 250px;
+    height: 250px;
+}
+
+button {
+    width: 150px;
+}
+
+.boton {
+    width: 150px;
+    border-radius: 5px;
+    background-color: rgb(80, 146, 161);
+    color: #fff;
+    margin-right: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.3);
+    height: 40px;
+}
+
+.botonEliminar {
+    width: 150px;
+    border-radius: 5px;
+    background-color: rgb(174, 174, 174);
+    color: #fff;
+    margin-right: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.3);
+    height: 40px;
+}
+
+.boton:hover {
+    opacity: 0.8;
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.7);
+}
+
+.botonEliminar:hover {
+    opacity: 0.8;
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.basura {
+    font-size: 30px;
+    color: red;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.basura:hover {
+    color: #FF6C6C;
+}
+
+.pregunta {
+    font-size: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    margin-right: 0px;
+    width: 500px;
+    height: 50px;
+    padding-top: 15px;
+    background-color: #EEEEEE;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-left: 10px;
+    margin-left: 5px;
+}
+
+.preguntas {
+    border: 1px solid rgba(0, 0, 0);
+    height: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.eliminarPregunta {
+    display: flex;
+    padding-top: 15px;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+    border-right: 1px solid rgba(0, 0, 0, 0.6);
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    color: #B8B8B8;
+    background-color: #EEEEEE;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.eliminarPregunta:hover {
+    color: #fff;
+    background-color: #F91616;
+}
+
+.prueba {
+    display: flex;
+}

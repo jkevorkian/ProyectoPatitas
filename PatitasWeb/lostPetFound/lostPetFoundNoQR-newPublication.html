@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./lostPetFoundNoQR-newPublication.css">
+    <script src="https://kit.fontawesome.com/7fcb757e78.js" crossorigin="anonymous"></script>
+    <title>Reportar mascota perdida</title>
+</head>
+<body>
+    <header>
+        <h1 class="texto-banner">PATITAS AL RESCATE</h1>
+
+        <div class="imgcontainer">
+            <img src="../login.jpg" alt="Avatar" class="avatar">
+        </div>
+    </header>
+
+
+    <main class="container">
+        <h1 class="underlineable">Reporta una mascot</h1><h1>a perdida sin chapita</h1><br><br><br><br>
+
+        <form action="">
+            
+            <div class="row">
+                <div class="col-8">
+                    <h2>Solicita una nueva publicacion de mascota perdida:</h2> <br> 
+                    <small>Al rellenar este formulario aceptas dar hogar transitorio a la mascota hasta que la publicacion sea reclamada</small> 
+                </div>
+                <div class="col-4">
+                    <small class="right">No podes darle alojo? </small> <a href="lostPetFoundNoQR-TransitHomeSearch.html" style="text-decoration: none;"> <button class="btnBuscarHogares" type="button">Buscar un hogar transitorio</button> </a>
+                </div>
+            </div>
+    
+            <br><br>
+
+            <div class="row">
+
+                <div class="col">
+                        <h3>Datos del rescatista:</h3>
+    
+                        <div class="row">
+                            <div class="col">
+                                <label for="">Nombre</label>
+                                <input type="text" class="form-control" required> 
+                            </div>
+    
+                            <div class="col">
+                                <label for="">Apellido</label>
+                                <input type="text" class="form-control" required> 
+                            </div>
+                        </div>
+                        
+                    
+    
+                        <div class="row">
+                            <div class="col">
+                                <label for="" class="form-label">Tipo de documento</label>
+                                <select class="form-select" name="" id="" required>
+                                    <option selected disabled>Elija un tipo de documento</option>
+                                    <option>DNI</option>
+                                    <option>Libreta civica</option>
+                                    <option>Libreta de enrolamiento</option>
+                                    <option>Pasaporte</option>
+                                 </select>
+                            </div>
+                            <div class="col">
+                                <label for="" class="form-label">Numero de documento</label>
+                                <input type="text" class="form-control" required>
+                            </div>
+                        </div>
+                        
+        
+                        <label for="">Fecha de nacimiento</label>
+                        <input type="date" class="form-control" required>
+    
+                        <div class="row">
+                            <label for="" class="form-label">Direccion</label>
+                            <div class="col">
+                                <label for="" class="form-label">Calle</label>
+                                <input type="text" class="form-control" required>
+                            </div>
+                            <div class="col">
+                                <label for="" class="form-label">Altura</label>
+                                <input type="number" class="form-control" required>
+                            </div>
+                        </div>
+    
+                        <h3>Datos de contacto:</h3>
+    
+                        <div class="row">
+                            <div class="col">
+                                <label for="">Nombre</label>
+                                <input type="text" class="form-control"> 
+                            </div>
+    
+                            <div class="col">
+                                <label for="">Apellido</label>
+                                <input type="text" class="form-control"> 
+                            </div>
+                        </div>
+    
+                        <label for="" class="form-label">Telefono</label>
+                        <input type="number" class="form-control">
+    
+                        <div class="mb-3">
+                          <label for="" class="form-label">E-mail</label>
+                          <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="">
+                        </div>
+    
+                        <label for="checkeos">Tipos de notificacion</label>
+                            <div class="form-check" id="checkeos">
+                                <input type="checkbox" class="form-check-input" name="" id="">
+                                <label class="form-check-label" for="">
+                                    WhatsApp
+                                </label><br>
+                                <input type="checkbox" class="form-check-input" name="" id="">
+                                <label class="form-check-label" for="">
+                                    SMS
+                                </label><br>
+                                <input type="checkbox" class="form-check-input" name="" id="">
+                                <label class="form-check-label" for="">
+                                    E-mail
+                                </label>
+                            </div>
+                        
+                </div>
+        
+                <div class="col">
+                    <h3>Datos de la mascota perdida:</h3>
+        
+                        <label for="" class="form-label">Lugar donde se la encontro</label> <br> 
+                        <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+                            <iframe src="https://maps.google.com/maps?q=BuenosAiresArgentina&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                              style="border:0" allowfullscreen></iframe>
+                        </div>
+    
+                          <br>
+        
+                        <div class="mb-3">
+                          <label for="" class="form-label">Foto de la mascota</label>
+                          <input type="file" class="form-control" name="" id="" placeholder="" aria-describedby="fileHelpId">
+                        </div>
+    
+                        <label for="" class="form-label">Descripcion del estado en el que se la encontro a la mascota:</label>
+                        <textarea class="form-control" name="" id="" rows="3"></textarea>
+    
+                          <br>
+        
+                </div>
+        
+    
+            </div>
+            
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-2"> <button type="submit">Aceptar</button> </div>
+                <div class="col-2"> <button class="btnCancelar" type="button">Cancelar</button> </div>
+            </div>
+
+
+        </form>
+
+        
+    </main>
+
+    <footer>
+        <br>
+    </footer>
+</body>
+</html>

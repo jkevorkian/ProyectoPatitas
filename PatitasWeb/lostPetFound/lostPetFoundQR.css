@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.texto-banner{
+    text-align: center;
+}
+
+img.avatar {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+main h1{
+    display: inline;
+}
+
+main h2{
+    display: inline;
+}
+
+main button{
+    width: 150px;
+    border-radius: 5px;
+    background-color: rgb(80, 146, 161);
+    color: #fff;
+    margin-right: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.3);
+    height: 40px;
+    position:relative;
+    right: 0vw;
+}
+
+.btnCancelar{
+    background-color: rgb(174, 174, 174);
+    position:relative;
+    right: 0vw;
+}
+
+main button:hover{
+    opacity: 0.8;
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.7);
+}
+
+main h1.underlineable{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.container input{
+    margin-bottom: 30px;
+    margin-top: 3px;
+}
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./giveInAdoption.css">
+    <script src="https://kit.fontawesome.com/7fcb757e78.js" crossorigin="anonymous"></script>
+    <title>Dar en adopción - Pantalla</title>
+</head>
+<body>
+    <header>
+        <h1 class="texto-banner">PATITAS AL RESCATE</h1>
+
+        <div class="imgcontainer">
+            <img src="../login.jpg" alt="Avatar" class="avatar">
+        </div>
+    </header>
+
+    <main class="container">
+        <h1 class="underlineable">Da en adopción a </h1><h1>tu mascota</h1><br><br><br><br>
+
+        <form action="">
+        <div class="row"> 
+            <div class="col">
+                <h2>Rellená el siguiente formulario: </h2>
+            </div>
+            <div class="col-2"><button>importar mascota</button>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div class="row" >
+            <div class="col" >
+                <label for="">Nombre</label>
+                <input type="text" class="form-control" required>
+            </div>
+            <div class="col" >
+                <label for="">Sexo</label> <br>
+
+                    <input class="form-check-input" type="radio" id="masc" name="sexo" value="Masculino" required>
+                    <label class="form-check-label" for="masc">Macho</label>
+
+                    <input class="form-check-input" type="radio" id="fem" name="sexo" value="Femenino" required>
+                    <label class="form-check-label" for="fem">Hembra</label>
+
+            </div>
+            <div class="col" >
+                <label for="">Fecha de nacimiento</label>
+                <input type="date" class="form-control">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col" >
+                <label for="" class="form-label">Descripción</label>
+                <textarea class="form-control" name="" id="" rows="3"></textarea>
+            </div>
+
+            <div class="col" >
+                  <label for="" class="form-label">Tamaño</label>
+                  <select class="form-select" name="" id="" required>
+                    <option selected disabled>Elija un tamaño</option>
+                    <option>Pequeño</option>
+                    <option>Mediano</option>
+                    <option>Grande</option>
+                  </select>
+            </div>
+
+            <div class="col" >
+                <label for="checkeos">Consideraciones</label>
+                <div class="form-check" id="checkeos">
+                    <input type="checkbox" class="form-check-input" name="" id="">
+                    <label class="form-check-label" for="">
+                        Es hipoalergenico
+                    </label><br>
+                    <input type="checkbox" class="form-check-input" name="" id="">
+                    <label class="form-check-label" for="">
+                        Tiene dieta especial
+                    </label>
+                  </div>
+            </div>
+            
+        </div>
+
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-2"> <button type="submit">Aceptar</button></div>
+            <div class="col-2"> <button class="btnCancelar">Cancelar</button> </div>
+        </div>
+        </form>
+    </main>
+
+    <footer>
+        <br>
+    </footer>
+</body>
+</html>
