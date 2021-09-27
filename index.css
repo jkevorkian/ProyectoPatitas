@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.texto-banner{
+    text-align: center;
+}
+
+img.avatar {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+main h1{
+    display: inline;
+}
+
+main h2{
+    display: inline;
+}
+
+main button{
+    font-size: 0px;
+    opacity: 0.8;
+    width: 30vw;
+    border-radius: 5px;
+    background-color: rgb(80, 146, 161);
+    color: #fff;
+    margin-right: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.3);
+    height: 50vh;
+    position:relative;
+    right: 0vw;
+    transition: 0.3s;
+    padding-top: 50%;
+    display: table;
+    margin: 0 auto;
+}
+
+main .botonQR{
+    background-image: url("QR-Code-icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+main .botonNoQR{
+    background-image: url("lostPet_icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+main button:hover{
+    font-size: 25px;
+    opacity: 1;
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.7);
+}
+
+main h1.underlineable{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+main form .btn{
+    transition: 0.3s;
+    height: 10vh;
+    /* width: 30%;  */
+    display: block;
+}
+
+main form .btn:hover{
+
+}
+
+
+.container input{
+    margin-bottom: 30px;
+    margin-top: 3px;
+}
+
