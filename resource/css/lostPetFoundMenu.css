@@ -45,14 +45,14 @@ main button{
 }
 
 main .botonQR{
-    background-image: url("QR-Code-icon.png");
+    background-image: url("../img/QR-Code-icon.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 
 main .botonNoQR{
-    background-image: url("lostPet_icon.png");
+    background-image: url("../img/lostPet_icon.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
