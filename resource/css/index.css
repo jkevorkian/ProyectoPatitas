@@ -71,7 +71,7 @@ main h1.underlineable{
 
 main form .btn{
     transition: 0.3s;
-    height: 10vh;
+    height: 11vh;
     /* width: 30%;  */
     display: block;
 }
