@@ -28,40 +28,61 @@ main h2{
 main button{
     font-size: 0px;
     opacity: 0.8;
-    width: 30vw;
+    aspect-ratio: 10/8;
+    /* width: auto; */
+    height: 45vh;
     border-radius: 5px;
     background-color: rgb(80, 146, 161);
-    color: #fff;
-    margin-right: 30px;
+    /* margin-right: 30px; */
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.3);
-    height: 50vh;
     position:relative;
     right: 0vw;
     transition: 0.3s;
     padding-top: 50%;
     display: table;
     margin: 0 auto;
+    color:black; 
+    font-weight: 400;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 main .botonQR{
     background-image: url("../img/QR-Code-icon.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
 }
 
 main .botonNoQR{
     background-image: url("../img/lostPet_icon.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+}
+
+main .botonNoQR-mobile{
+    width: 70vw;
+    background-image: url("../img/lostPet_icon.png");
+}
+
+main .botonQR-mobile{
+    width: 70vw;
+    background-image: url("../img/QR-Code-icon.png");
 }
 
 main button:hover{
-    font-size: 25px;
+    font-size: 1.7vw;
     opacity: 1;
     box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.7);
+    padding-top:39vh;
+}
+
+main button h3{
+    font-size: inherit;
+    color: inherit;
+    font-weight: 400;
+}
+
+main button h3:hover{
+    font-size: inherit;
+    color: inherit;
 }
 
 main h1.underlineable{

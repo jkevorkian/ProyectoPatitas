@@ -17,21 +17,67 @@
     <header>
         <h1 class="texto-banner">PATITAS AL RESCATE</h1>
 
-        <div class="imgcontainer">
+        <div class="imgcontainer d-lg">
             <img src="../img/login.jpg" alt="Avatar" class="avatar">
         </div>
     </header>
     
     <main class="container">
-        <h1 class="underlineable">Reporta una mascot</h1><h1>a perdida</h1><br><br><br><br>
-
+        <h1 class="underlineable d-none d-lg-inline">Reporta una mascot</h1><h1 class="d-none d-lg-inline">a perdida</h1>
+        <h1 class="underlinable d-lg-none">Reporta una mascota perdida</h1>
+        <br><br><br><br>
         <form action="">
             <div class="row"> 
 
-                <div class="col">  <a href="../views/lostPetFoundQR.html" style="text-decoration: none;"> <button class="botonQR" type="button">La mascota tiene chapita </button> </a> </div>
+                <!-- Desktop -->
+                <div class="col-6 d-flex justify-content-center">  
+                    <a href="../views/lostPetFoundQR.html" style="text-decoration: none;"> 
+                        <button class="botonQR d-none d-lg-inline" type="button" >
+                           <h3>La mascota tiene chapita</h3>
+                        </button> 
+                    </a> 
+                </div>
 
-                <div class="col"> <a href="../views/lostPetFoundNoQR-newPublication.html" style="text-decoration: none;"> <button class="botonNoQR" type="button">La mascota no tiene chapita</button> </a> </div>
-                
+                <div class="col-6 d-flex justify-content-center"> 
+                    <a href="../views/lostPetFoundNoQR-newPublication.html" style="text-decoration: none;"> 
+                        <button class="botonNoQR d-none d-lg-inline" type="button">
+                            <h3>La mascota no tiene chapita</h3>
+                        </button> 
+                    </a> 
+                </div>
+
+                <!-- Mobile -->
+                <div class="col justify-content-center">
+                    <div class="row">
+                        <h3 class="d-lg-none" style="text-align: center;">La mascota tiene chapita</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <a href="../views/lostPetFoundQR.html" style="text-decoration: none;"> 
+                            <button class="botonQR-mobile d-lg-none" type="button" ></button> <br>
+                        </a>
+                        </div>
+                        
+                    </div>
+                     
+                </div>
+
+                <div class="col justify-content-center">
+                    <div class="row">
+                        <h3 class="d-lg-none" style="text-align: center;">La mascota no tiene chapita</h3>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <a href="../views/lostPetFoundNoQR-newPublication.html" style="text-decoration: none;"> 
+                                <button class="botonNoQR-mobile d-lg-none" type="button"></button> <br>
+                            </a>
+                        </div>
+                        
+                    </div>
+                     
+                </div>
+
             </div>
             
         </form>
@@ -39,7 +85,7 @@
     </main>
 
     <footer>
-        <br>
+        <br><br>
     </footer>
 
 </body>
